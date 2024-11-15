@@ -1,0 +1,320 @@
+#casoc{left: 0; top: 40%;
+        position: absolute;
+        animation-name: casoc;
+        animation-duration: 16s;
+        animation-timing-function: linear;
+        animation-duration: alternate;
+        transform: rotateY(0deg);
+        animation-iteration-count: infinite;
+        animation-play-state: running;}
+@keyframes casoc {
+    0% {left: 0%; top: 40%; transform: rotateY(180deg);}
+    50%{left: calc(100% - 80px); top: 50%; transform: rotateY(180deg);}
+    50.01%{transform: rotateY(0deg); top:50%;}
+    100%{left: 0; top: 40%; transform:rotateY(0deg);}
+}
+#casoc1{left: 0; top: 30%;
+    position: absolute;
+    animation-name: casoc1;
+    animation-duration: 13s;
+    animation-timing-function: linear;
+    animation-duration: alternate;
+    transform: rotateY(0deg);
+    animation-iteration-count: infinite;
+    animation-play-state: running;}
+@keyframes casoc1 {
+0% {left: 0%; top: 30%; transform: rotateY(180deg);}
+50%{left: calc(100% - 80px); top: 20%; transform: rotateY(180deg);}
+50.01%{transform: rotateY(0deg); top:20%;}
+100%{left: 0; top: 30%; transform:rotateY(0deg);}
+}
+#cahexanh {left: 0; top: 80%;
+    position: absolute;
+    animation-name: cahexanh;
+    animation-duration: 17s;
+    animation-timing-function: linear;
+    animation-duration: alternate;
+    transform: rotateY(0deg);
+    animation-iteration-count: infinite;
+    animation-play-state: running;}
+@keyframes cahexanh {
+0% {left: 0%; top: 80%; transform: rotateY(180deg);}
+50%{left: calc(100% - 80px); top: 10%; transform: rotateY(180deg);}
+50.01%{transform: rotateY(0deg); top:10%;}
+100%{left: 0; top: 80%; transform:rotateY(0deg);}
+}
+#cahedon {left: 0; top: 75%;
+    position: absolute;
+    animation-name: cahedon;
+    animation-duration: 17s;
+    animation-timing-function: linear;
+    animation-duration: alternate;
+    transform: rotateY(0deg);
+    animation-iteration-count: infinite;
+    animation-play-state: running;}
+@keyframes cahedon {
+0% {left: 0%; top: 75%; transform: rotateY(180deg);}
+50%{left: calc(100% - 80px); top: 20%; transform: rotateY(180deg);}
+50.01%{transform: rotateY(0deg); top:20%;}
+100%{left: 0; top: 75%; transform:rotateY(0deg);}
+}
+#cahedon1 {left: 0; top: 60%;
+    position: absolute;
+    animation-name: cahedon1;
+    animation-duration: 17s;
+    animation-timing-function: linear;
+    animation-duration: alternate;
+    transform: rotateY(0deg);
+    animation-iteration-count: infinite;
+    animation-play-state: running;}
+@keyframes cahedon1 {
+0% {left: 0%; top: 60%; transform: rotateY(180deg);}
+50%{left: calc(100% - 80px); top: 20%; transform: rotateY(180deg);}
+50.01%{transform: rotateY(0deg); top:20%;}
+100%{left: 0; top: 60%; transform:rotateY(0deg);}
+}
+#shark{left: 0; bottom: 50%;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-duration: alternate;
+    animation-play-state: running;
+    animation-name: shark; 
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    transform: rotateY(180deg);}
+@keyframes shark{
+    0%{left: 0; top: 50%; transform: rotateY(180deg);}
+    50%{left: calc(100% - 100px); top: 60%; transform: rotateY(180deg);}
+    50.01%{transform: rotateY(0deg); top: 60%;}
+    100%{left: 0; top: 50%; transform: rotateY(0deg);}
+}
+#rua{right: 100px; bottom: 50px;
+    -o-animation-direction: alternate;
+    animation-timing-function: linear;
+    position: absolute;
+    animation-play-state: running;
+    animation-duration: alternate;
+    animation-name: rua; 
+    animation-duration: 12s;
+    animation-iteration-count: infinite;}
+@keyframes rua{
+    0%{right: 0px; bottom: 60px; transform: rotateY(180deg);}
+    25%{right: 600px; bottom: 100px;}
+    50%{right: calc(10% - 20px); bottom: 600px;}
+    60%{right: 200; bottom: 700px;}
+    75%{right: 20; bottom: 400px;}
+    80%{right: 100; bottom: 500px;}
+    100%{right: 0px; bottom: 60px; transform: scale(1);}
+}
+#sua{width: 100%;height: 100%;
+    left: 67%; 
+    position: absolute;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-name: sua;
+    animation-duration: 12s;
+    z-index: 1;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+@keyframes sua{
+    0%{top: 100%;}
+    100%{top: calc(0% - 140px);}
+}
+#sua1{width: 100%;height: 100%;
+    left: 75%; 
+    position: absolute;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-name: sua1;
+    animation-duration: 15s;
+    z-index: 1;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+@keyframes sua1{
+    0%{top: 100%;}
+    100%{top: calc(0% - 140px);}
+}
+#sua2{width: 100%;height: 100%;
+    left: 72.5%; 
+    position: absolute;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-name: sua2;
+    animation-duration: 12.5s;
+    z-index: 1;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+@keyframes sua2{
+    0%{top: 100%;}
+    100%{top: calc(0% - 140px);}
+}
+#sua3{width: 100%;height: 100%;
+    left: 70%; 
+    position: absolute;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-name: sua3;
+    animation-duration: 15s;
+    z-index: 1;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+@keyframes sua3{
+    0%{top: 0%; left: 70%;}
+    100%{top: calc(100% - 140px); left: 40%;}
+}
+#khibien{width: 100%;height: 100%;
+    left: 10%; 
+    position: absolute;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-name: khibien;
+    animation-duration: 2.5s;
+    z-index: 1;
+    opacity: 0.5;
+    filter: brightness(0) invert(1);
+   -webkit-filter: brightness(0) invert(1);
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+@keyframes khibien {
+    0%{top: 100%;}
+    100%{top: calc(0% - 140px);}
+}
+#khibien1{width: 100%;height: 100%;
+    left: 85%; 
+    filter: blur(0) invert(1);
+    -webkit-filter: blur(0) invert(1);
+    position: absolute;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-name: khibien1;
+    animation-duration: 3.5s;
+    z-index: 1;
+    opacity: 0.9;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+@keyframes khibien1 {
+    0%{top: 100%;}
+    100%{top: calc(0% - 140px);}
+}
+#khibien2{width: 100%;height: 100%;
+    left: 0%; 
+    position: absolute;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-name: khibien2;
+    animation-duration: 3s;
+    z-index: 1;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+@keyframes khibien2 {
+    0%{top: 100%;}
+    100%{top: calc(0% - 140px);}
+}
+#khibien3{width: 100%;height: 100%;
+    left: 80%; 
+    position: absolute;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-name: khibien3;
+    animation-duration: 4s;
+    z-index: 1;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+@keyframes khibien3 {
+    0%{top: 100%;}
+    100%{top: calc(0% - 140px);}
+}
+#dancahe{left: 5%; top: 77%;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-name: dancahe; 
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    transform: rotateY(0deg);}
+@keyframes dancahe{
+    0%{left: 0%; bottom: 0%;}
+    50%{left: calc(10% - 100px); bottom: 0%; transform: rotateY(0deg);}
+    50.01%{transform: rotateY(0deg); bottom: 0%;}
+    100%{left: 0%; bottom: 0%; transform: rotateY(0deg);}
+}
+#cavoisatthutron{
+    left: 35%;
+    top: 55%;
+    position: absolute;
+    opacity: 0.2;
+    filter: brightness(0);
+    -webkit-filter: brightness(0); //đổi ảnh sang nền đen
+}
+#khibien7 {
+    left: 80%;
+    top: 30%;
+    position: absolute;
+}
+#cavoi{width: 100%;height: 100%;
+    top: 25%; 
+    position: absolute;
+    opacity: 0.1;
+    animation-timing-function: linear;
+    filter: brightness(0);
+    -webkit-filter: brightness(0); //đổi ảnh sang nền đen
+    animation-play-state: running;
+    animation-name: cavoi;
+    animation-duration: 25s;
+    z-index: 1;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+@keyframes cavoi{
+    0%{left: -50%;}
+    100%{left: calc(100% - 140px);}
+}
+#anhsao{
+    opacity: 0.4;
+    left: 91%;
+    top: 2%;
+    position: absolute;
+    position: relative;
+}
+#sao{
+    left: 0;
+    top: 60%;
+    position: absolute;
+    position: relative;
+}
+#sao2{
+    opacity: 0.8;
+    left: 0%;
+    top: -90%;
+    transform: rotate(90deg);
+    position: absolute;
+    position: relative;
+}
+#sao3{
+    opacity: 0.3;
+    left: 58%;
+    top: 40%;
+    position: absolute;
+    position: relative;
+}
+#svphudu{
+    opacity: 0.4;
+    left: 0;
+    top: 100%;
+    position: absolute;
+    position: relative;
+}
+#rongnuoc{
+    left: 0;
+    top: 0;
+    position: absolute;
+    position: relative;
+}
